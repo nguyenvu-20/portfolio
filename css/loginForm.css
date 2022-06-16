@@ -36,6 +36,8 @@
     font-weight: 600;
     padding-bottom: 30px;
     text-align: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
     }
 
 .form-box input {
@@ -100,9 +102,13 @@
     }
 
 span a {
-    color: #BBB;
+    color: rgb(255, 255, 255);
     }
     
+a {
+    text-decoration: none;
+    color: #fff;
+    }
     
     
     
