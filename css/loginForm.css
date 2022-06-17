@@ -1,4 +1,5 @@
 .form-box {
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgba(0, 0, 0, 0.5);
     margin: auto auto;
     padding: 40px;
@@ -11,9 +12,14 @@
     right: 0;
     width: 500px;
     height: 430px;
+    z-index: -1;
+    
     /* opacity: .4; */
     }
     
+/* * {
+box-sizing: border-box;
+} */
 
 .form-box:before {
     
@@ -67,7 +73,7 @@
 
 .form-box label:before {
     content: "";
-    display: inline-block;
+    display: inline;
     width: 20px;
     height: 20px;
     border-radius: 5px;
@@ -83,6 +89,9 @@
     color: #000;
     text-align: center;
     line-height: 20px;
+    pointer-events: none;
+    position: relative;
+    z-index: 1;
     }
 
 .form-box span {
@@ -90,7 +99,7 @@
     }
 
 .form-box button {
-    background-color: deepskyblue;
+    background-color: #5D5D81;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -101,13 +110,13 @@
     margin: 20px 0px;
     }
 
-span a {
-    color: rgb(255, 255, 255);
+span {
+    color: #fff;
     }
     
 a {
     text-decoration: none;
-    color: #fff;
+    color: #5D5D81;
     }
     
     
