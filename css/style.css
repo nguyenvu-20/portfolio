@@ -63,3 +63,92 @@ body {
   opacity: .85;
   z-index: -1;
 }
+
+.form-box-pf1{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fff;
+  margin: auto auto;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  position: absolute;
+
+  width: 500px;
+  height: 300px;
+  opacity: .85;
+  z-index: -1;
+}
+
+.form-box-pf1d{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fff;
+  margin: auto auto;
+  margin-top: 5%;
+  margin-left: 40%;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  position: absolute;
+
+  width: 500px;
+  height: 300px;
+  opacity: .85;
+  z-index: -1;
+}
+
+.form-box-pf2{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fff;
+  margin: auto auto;
+  margin-top: 30%;
+  margin-left: 50%;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  position: absolute;
+  ;
+  width: 500px;
+  height: 300px;
+  opacity: .85;
+  z-index: -1;
+}
+
+.form-box-pf3{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fff;
+  margin: auto auto;
+  margin-top: 55%;
+  margin-left: 5%;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  position: absolute;
+  ;
+  width: 500px;
+  height: 300px;
+  opacity: .85;
+  z-index: -1;
+}
+
+
+/* Next Arrow */
+.form-box-next{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  text-overflow: ellipsis;
+  background-color: #fff;
+  margin: auto auto;
+  margin-top: 60%;
+  margin-left: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  position: absolute;
+  ;
+  width: 90px;
+  height: 40px;
+  opacity: .85;
+  z-index: -1;
+}
