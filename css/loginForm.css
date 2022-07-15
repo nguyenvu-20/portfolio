@@ -110,6 +110,16 @@ box-sizing: border-box;
     margin: 20px 0px;
     }
 
+.form-box a {
+        
+        color: #fff;
+  
+        }
+
+.form-box ul {
+    color: #5D5D81;
+}
+
 span {
     color: #fff;
     }
